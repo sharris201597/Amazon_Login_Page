@@ -1,0 +1,110 @@
+header{
+    display: flex;
+    justify-content: center;
+    padding-left: 100px;
+
+}
+
+.flex-container{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0px;
+}
+
+.sign-in-box{
+    height: 320px;
+    width: 375px;
+    border: 1px solid lightgray;
+    border-radius: 4px;
+
+    padding-left: 20px;
+    padding-right: 20px;
+    display: flex;
+    flex-flow: column;
+
+}
+
+
+.password{
+    margin-top: 30px;
+}
+
+.password a{
+    margin-left: 185px;
+}
+
+#cont-button{
+    background-color: #FF9900;
+    margin-top: 25px;
+    height: 30px;
+    border: #000000;
+    border-radius: 8px;
+    width: 375px;
+}
+
+#help-button{
+    margin-top: 23px;
+    margin-left: 25px;
+    font-size: 14px;
+}
+
+.new-section{
+    display: flex;
+    justify-content: center;
+
+    
+}
+
+.new{
+    width: 375px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 8px;
+}
+
+.line{
+    height: 13px;
+    width: 130px;  
+    border-bottom: .5px solid 
+    
+  }
+
+  #NTA{
+      font-size: 14px;
+      margin-top: 4.8px;
+      color: rgb(154, 150, 150);
+  }
+
+  .create-button-container{
+      border-bottom: 0.8px solid darkgray;
+      height: 95px;
+      display: flex;
+      justify-content: center;
+      padding-top: 20px;
+
+  }
+
+  .create-button-container button{
+    height: 30px;
+    border: #000000;
+    border-radius: 8px;
+    width: 380px;
+  }
+
+  .legal-info{
+      display: flex;
+      justify-content: center;
+      padding-right: 40px;
+  }
+
+  .legal-info a{
+      text-decoration: none;
+      padding: 20px
+  }
+
+  footer{
+      display: flex;
+      justify-content: center;
+      font-size: 8px;
+      margin-top: 30px;
+  }
